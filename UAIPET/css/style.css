@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #654898;
+  --secondary-color: #ffb228;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 1.6rem;
+
+  text-align: center;
+  overflow: overlay;
+  background-color: var(--primary-color);
+}
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+nav .wrapper {
+  margin-top: 4rem;
+}
+nav .wrapper .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+nav .wrapper h1 {
+  text-transform: uppercase;
+  margin-top: 0.125rem;
+}
+nav .wrapper p {
+  margin-top: 0.125rem;
+  margin-bottom: 0.531rem;
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+
+.button {
+  border: none;
+  width: 9.25rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  
+  text-align: center;
+  
+  border-radius: 1.25rem;
+  background-color: var(--secondary-color);
+}
+.button:hover{
+  background-color: #d6a445;
+}
+
+#lets {
+  margin-top: 0.531rem;
+  margin-bottom: 0.531rem;
+
+}
+#divisoria{
+  margin-top: 0.531rem;
+  margin-bottom: 8rem;
+
+}
+img {
+  max-width: 100%;
+}
+
+/*======CADASTRO========*/
+.cadastro{
+  height: 100%;
+  background: linear-gradient(180deg, #654993 0%, rgba(101, 73, 147, 0.54) 100%);
+
+}
+.cadastro .top{
+  margin-top: 0.823rem;
+  color: #FFF;
+ 
+}
+.cadastro .top h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.438;
+  text-transform: capitalize;
+}
+.cadastro .top p{
+  margin-top: 0.438rem;
+  margin-bottom: 1.688rem;
+  font-size: 1.375rem;
+
+}
+.cadastro form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.688rem;
+}
+.cadastro button{
+  margin-bottom: 1.688rem;
+}
+.cadastro form input{
+  font-size: 0.875rem;
+  padding: 0.300rem;
+  width: 15.563rem;
+  height: 3.25;
+  border-radius: 0.5rem;
+  color: #000;
+  font-weight: 300;
+  box-shadow:  0 3px 4px rgba(255, 139, 106, 0.5);
+  border: none;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  gap: 0.325rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+i {
+  color: var(--secondary-color);
+}
+.cadastro form input:focus{
+  background-color: #ede1ff;
+    outline: none;
+}
+
+/*==============Home==============*/
+.title{
+  margin-top: 4.125rem;
+  margin-bottom: 1.688rem;
+  color: #FFF;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.688rem;
+
+}
+
+.cards .card{
+  background-color: var(--secondary-color);
+  width: 17rem;
+  height: 10rem;
+  border-radius: 1.563rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  gap: 0.125rem;
+
+  cursor: pointer;
+
+}
+.card img{
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0.313rem var(--primary-color);
+}
+
+.cards .card:hover{
+  background-color: #d6a445;
+  
+}
+
+hr{
+  margin: 0 auto;
+  border: 0.125rem solid var(--secondary-color);
+  
+  width: 50%;
+}
